@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Domestique</string>
+    <string name="title_activity_professional_map">Map</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="confrim_and_save">Confrim And Save</string>
+    <string name="_454">454</string>
+    <string name="services">Services</string>
+    <string name="_15360">$15360</string>
+</resources>

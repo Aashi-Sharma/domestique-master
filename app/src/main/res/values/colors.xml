@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800080</color>
+    <color name="colorPrimaryDark">#660066</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pacificShade1"> #D896FF</color>
+    <color name="pacificShade2"> #EFBBFF</color>
+    <color name="pacificShade3">#BDAEC6</color>
+    <color name="pacificShade4">#BDAEC6</color>
+    <color name="pacificShade5">#FFFFFF</color>
+
+
+
+
+
+
+</resources>

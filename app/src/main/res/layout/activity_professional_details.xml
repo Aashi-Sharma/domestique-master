@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessionalDetails"
+    android:orientation="vertical"
+    android:background="@drawable/background5"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_user" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pacificShade1"
+        android:hint="Name"
+        android:padding="6dp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pacificShade1"
+        android:hint="Phone"
+        android:padding="6dp"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"
+        android:id="@+id/phone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/confrim_and_save"
+            android:layout_marginRight="10dp"
+        android:id="@+id/confirm"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:padding="6dp"
+            android:id="@+id/back"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

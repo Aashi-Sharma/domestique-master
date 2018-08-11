@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">389389357127-pkg1odbj80p5uld92s0t5ue6ses58d9g.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://domestique-4a15f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">389389357127</string>
+    <string name="google_api_key" translatable="false">AIzaSyDW0xVM_W0FBs86OAw7tMmO7tv8Af_tyVc</string>
+    <string name="google_app_id" translatable="false">1:389389357127:android:b748b1f22e982da3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDW0xVM_W0FBs86OAw7tMmO7tv8Af_tyVc</string>
+    <string name="google_storage_bucket" translatable="false">domestique-4a15f.appspot.com</string>
+    <string name="project_id" translatable="false">domestique-4a15f</string>
+</resources>

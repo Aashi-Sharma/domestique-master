@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessionalShedules"
+    android:orientation="vertical"
+    android:id="@+id/sheduleList"
+    android:background="@drawable/background4">
+
+
+    <Switch
+        android:id="@+id/switches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <ImageView
+            android:id="@+id/professionalNameImage"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_user" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pacificShade4"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/professionalName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="6dp"
+                android:text="Professional_Name"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="category"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/subService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="sub Service he do"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pacificShade4"
+            android:weightSum="4.02">
+
+
+            <EditText
+                android:id="@+id/numberOfServices"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:text="@string/_454"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/services"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/services"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="#2b2b2b"
+                android:orientation="horizontal" />
+
+            <EditText
+                android:id="@+id/totalEarning"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/_15360"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/earns"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:text="Earns"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <TableLayout
+        android:id="@+id/tableService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/pacificShade5"
+
+                android:weightSum="9">
+
+                <ImageView
+                    android:id="@+id/imageView"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_user" />
+
+                <LinearLayout
+                    android:layout_width="233dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/customerCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="customer_one"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/serviceRequired"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Service Required"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/goButton"
+                    android:layout_width="76dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_weight="2"
+                    android:background="#21C423"
+                    android:text="GO" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/scheduledate"
+
+                android:background="@color/pacificShade5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schedlude on 28/01/2008"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
